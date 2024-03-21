@@ -23,7 +23,7 @@
 
 } */
 
-.col-sm-7.col-md-7.text-center.m-auto{
+#card-col{
     background-color: rgba(0, 58, 142, 0.6);
     padding: 2.5rem;
 }
@@ -32,16 +32,50 @@
     padding-top: 8rem;
     padding-bottom: 7rem;
     color:white;
+    --bs-gutter-x: 0;
     
-}.horizontal-bar{
+}
+
+.horizontal-bar{
     height: 6px;
     width: 10rem;
     background-color:#81bcba;
 }
 
-.btn{
+#Learnmore-btn{
     border-radius: unset;
     width: 12rem;
     color: white;
     background-color:#81bcba;
+}
+
+#card2{
+    padding-top: 4.5rem;
+    padding-bottom: 7rem;
+    color:white;
+    --bs-gutter-x: 0;
+   
+}
+
+#card2-col{
+    position: relative;
+    background-color: rgb(247, 251, 251);
+    /* padding: 1rem; */
+}
+
+#card2-col2{
+    background-color: #fffcfc;
+    padding: 2rem;
+    position: relative;
+    left: 1rem;
+    bottom: 3rem;
+    color: #96a2a2;
+}
+
+#card2-img{
+    height: 200px;
+    position: absolute;
+    right: 10px;
+    /* bottom: 225px; */
+    top: -100px;
 }
