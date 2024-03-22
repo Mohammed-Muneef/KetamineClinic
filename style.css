@@ -108,5 +108,11 @@
 }
 
 #card6{
+    
     background-image: url(images/fern-leaves-closeup-as-background-tidewater-green-color-trend-horizontal-orientation-selective-focu_10.jpg);
+   
+}
+/* check it */
+.row{
+    --bs-gutter-x: unset;
 }
