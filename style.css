@@ -79,3 +79,34 @@
     /* bottom: 225px; */
     top: -100px;
 }
+
+#card4{
+    background-image: url(images/jacob-laducer-Un5OLMEZFOg-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    padding-top: 8rem;
+    padding-bottom: 7rem;
+    color:white;
+    --bs-gutter-x: 0;
+}
+
+.contact-form{
+    background-color: currentColor;
+    padding: 1.5rem;
+    border-radius: 4px;
+    
+    
+}
+
+.small-text{
+    font-size: 14px;
+}
+
+.founder-img{
+    height: 200px;
+}
+
+#card6{
+    background-image: url(images/fern-leaves-closeup-as-background-tidewater-green-color-trend-horizontal-orientation-selective-focu_10.jpg);
+}
