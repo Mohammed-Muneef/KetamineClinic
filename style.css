@@ -95,10 +95,14 @@
     background-color: currentColor;
     padding: 1.5rem;
     border-radius: 4px;
-    
+  
     
 }
-
+#contact{
+    position: absolute;
+     top: 40px; 
+     right: 50px;
+}
 .small-text{
     font-size: 14px;
 }
@@ -115,4 +119,18 @@
 /* check it */
 .row{
     --bs-gutter-x: unset;
+}
+
+@media only screen and (max-width:758px){
+    #contact{
+        position:unset! important;
+    }
+}
+
+@media only screen and (max-width:575px)
+{
+    #card2-col2 {
+        left: 0px! important;
+    }
+
 }
